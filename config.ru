@@ -1,1 +1,5 @@
-run App
+require 'sinatra'
+
+require_relative './app'
+
+run Application
